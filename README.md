@@ -8,12 +8,12 @@
 
 ## ⚙ Status de Execução
 
-Em andamento
+Em andamento - No momento sendo trabalhado a listagem
 
 
 ## 📎 Sobre
 
-O projeto consiste na criação cronômetro de contagem regressiva para realização de determinada tarefa, tendo 3 opções de sons de fundo.
+O projeto consiste na criação de um cronômetro de contagem regressiva para realização de tarefas que podem ser adicionadas em formato de lista, tendo 3 opções de sons de fundo.
 
 ## 🛸 Tecnologias Utilizadas
 
@@ -21,6 +21,13 @@ O projeto consiste na criação cronômetro de contagem regressiva para realiza�
 - CSS 3
 - JAVA SCRIPT
 
+## 🖥️ Demonstração
+
+<img src="./assets/img/previewTimer.png" alt="preview site">
+
+## 🔗 Link da Página
+
+<a href="https://time-to-focus-by-imetzker.netlify.app/" rel="Site" target="_blank">Clique aqui para ir para o projeto em execução</a>
 
 ## 👾 Créditos
 
