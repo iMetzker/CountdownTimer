@@ -6,14 +6,22 @@
 ![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-## ⚙ Status de Execução
-
-Em andamento - No momento sendo trabalhado a listagem
-
 
 ## 📎 Sobre
 
-O projeto consiste na criação de um cronômetro de contagem regressiva para realização de tarefas que podem ser adicionadas em formato de lista, tendo 3 opções de sons de fundo.
+O projeto consiste na criação de um cronômetro de contagem regressiva para realização de tarefas que podem ser adicionadas em formato de lista.
+
+⚙ Funcionalidades <br>
+
+> <u>Cronômetro</u> <br>
+ Começar, resetar e pausar contagem; <br>
+ Adicionar e remover 05 minutos.
+
+>  <u>Sons de Fundo</u> <br>
+ Três opções de sons.
+
+>  <u>Lista de Tarefas</u> <br>
+ Adicionar, marcar, remover e editar tarefas.
 
 ## 🛸 Tecnologias Utilizadas
 
