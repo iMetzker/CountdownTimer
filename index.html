@@ -13,22 +13,25 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Time Organization</title>
+    <title>Time To Focus</title>
   </head>
   <body>
     <section>
-      <h1>Time Organization</h1>
+      <h1>Quarta-feira</h1>
+      <p>02/02/2023</p>
       <div class="timer">
         <div class="effect-timer"></div>
         <div class="timer-content">
-          <div class="timer-count">Olá</div>
+          <div class="timer-count">00:00:00</div>
         </div>
       </div>
 
       <div class="timer-controller">
-        <button><img src="./assets/img/play.png" alt="" /></button>
-        <button><img src="./assets/img/refresh.png" alt="" /></button>
-        <button><img src="./assets/img/pause.png" alt="" /></button>
+        <button class="play"><img src="./assets/img/play.png" alt="" /></button>
+        <button class="refresh"><img src="./assets/img/refresh.png" alt="" /></button>
+        <button class="pause"><img src="./assets/img/pause.png" alt="" /></button>
+        <button class="addMinute"><img src="./assets/img/addTimer.png" alt="" /></button>
+        <button class="reduceMinute"><img src="./assets/img/reduceTimer.png" alt="" /></button>
       </div>
 
       <div class="sounds-content">
@@ -40,7 +43,6 @@
 
           <audio src="./assets/audio/coffeeBarAmbience.mp3" id="audioCoffee"></audio>
           <button onclick="playSound (soundCoffee)"><img src="./assets/img/coffeeIcon.png" alt="" /></button>
-        </div>
       </div>
 
       <div class="tasks-content"></div>

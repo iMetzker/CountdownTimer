@@ -13,7 +13,7 @@ Em andamento
 
 ## 📎 Sobre
 
-O projeto consiste na criação de uma agenda simples para listar tarefas, tendo também um cronômetro e 4 opções de sons de fundo.
+O projeto consiste na criação cronômetro de contagem regressiva para realização de determinada tarefa, tendo 3 opções de sons de fundo.
 
 ## 🛸 Tecnologias Utilizadas
 
