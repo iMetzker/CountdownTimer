@@ -31,3 +31,10 @@ p {
   margin-bottom: 2rem;
   font-size: 2rem;
 }
+
+@media (max-width: 474px){
+  section {
+      padding: 3rem;
+      overflow: hidden;
+  }
+}
