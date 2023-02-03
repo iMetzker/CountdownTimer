@@ -2,7 +2,7 @@ const counter = document.querySelector(".timer-count");
 const play = document.querySelector(".play");
 const refresh = document.querySelector(".refresh");
 const pause = document.querySelector(".pause");
-let seconds = 0;
+let seconds = 1500;
 let timer;
 
 function getTime(seconds) {
@@ -15,9 +15,16 @@ function getTime(seconds) {
 
 function startCounter() {
   timer = setInterval(function () {
-    seconds++;
+    seconds--;
     counter.innerHTML = getTime(seconds);
+
+    if (seconds <=0) {
+      clearInterval(timer);
+      counter.innerHTML = "00:00:00";
+      document.getElementById('timeOut').play();
+    }
   }, 1000);
+
 }
 
 play.addEventListener("click", function (event) {

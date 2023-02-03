@@ -2,6 +2,7 @@
 let soundRain = document.querySelector('#audioRain');
 let soundNight = document.querySelector('#audioNight');
 let soundCoffee = document.querySelector('#audioCoffee');
+let clickSound = document.querySelector('#audioClick');
 let count = 0;
 
 function playSound (chosenSound) {
@@ -13,4 +14,8 @@ function playSound (chosenSound) {
         count = 0;
         sound.pause();
     }
+}
+
+function playSoundClick () {
+    clickSound.play();
 }

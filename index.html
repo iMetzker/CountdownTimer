@@ -22,16 +22,18 @@
       <div class="timer">
         <div class="effect-timer"></div>
         <div class="timer-content">
-          <div class="timer-count">00:00:00</div>
+          <audio src="./assets/audio/timeOutTimer.mp3" id="timeOut"></audio>
+          <div class="timer-count">00:25:00</div>
         </div>
       </div>
 
       <div class="timer-controller">
-        <button class="play"><img src="./assets/img/play.png" alt="" /></button>
-        <button class="refresh"><img src="./assets/img/refresh.png" alt="" /></button>
-        <button class="pause"><img src="./assets/img/pause.png" alt="" /></button>
-        <button class="addMinute"><img src="./assets/img/addTimer.png" alt="" /></button>
-        <button class="reduceMinute"><img src="./assets/img/reduceTimer.png" alt="" /></button>
+        <audio src="./assets/audio/click.mp3" id="audioClick"></audio>
+        <button onclick="playSoundClick()" class="play"><img src="./assets/img/play.png" alt="" /></button>
+        <button onclick="playSoundClick()" class="refresh"><img src="./assets/img/refresh.png" alt="" /></button>
+        <button onclick="playSoundClick()" class="pause"><img src="./assets/img/pause.png" alt="" /></button>
+        <button onclick="playSoundClick()" class="addMinute"><img src="./assets/img/addTimer.png" alt="" /></button>
+        <button onclick="playSoundClick()" class="reduceMinute"><img src="./assets/img/reduceTimer.png" alt="" /></button>
       </div>
 
       <div class="sounds-content">
