@@ -72,7 +72,7 @@
     padding: 2rem;
 }
 
-.sounds-content button img:hover {
+.sounds-content button img:hover{
     filter: invert(100%);
     cursor: pointer;
     transition: all 300ms ease-in-out;

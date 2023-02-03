@@ -20,7 +20,9 @@
       <h1>Time Organization</h1>
       <div class="timer">
         <div class="effect-timer"></div>
-        <div class="timer-content"></div>
+        <div class="timer-content">
+          <div class="timer-count">Olá</div>
+        </div>
       </div>
 
       <div class="timer-controller">
@@ -30,18 +32,22 @@
       </div>
 
       <div class="sounds-content">
-        <div>
-          <button><img src="./assets/img/rainIcon.png" alt="" /></button>
-        </div>
-        <div>
-          <button><img src="./assets/img/nightIcon.png" alt="" /></button>
-        </div>
-        <div>
-          <button><img src="./assets/img/coffeeIcon.png" alt="" /></button>
+          <audio src="./assets/audio/rainAmbience.mp3" id="audioRain"></audio>
+          <button onclick="playSound(soundRain)"><img src="./assets/img/rainIcon.png" alt="" /></button>
+
+          <audio src="./assets/audio/nightAmbience.mp3" id="audioNight"></audio>
+          <button onclick="playSound(soundNight)"><img src="./assets/img/nightIcon.png" alt="" /></button>
+
+          <audio src="./assets/audio/coffeeBarAmbience.mp3" id="audioCoffee"></audio>
+          <button onclick="playSound (soundCoffee)"><img src="./assets/img/coffeeIcon.png" alt="" /></button>
         </div>
       </div>
 
       <div class="tasks-content"></div>
     </section>
+
+   <script src="./assets/js/sounds.js"></script>
+   <script src="./assets/js/tasks.js"></script>
+   <script src="./assets/js/timer.js"></script>
   </body>
 </html>
