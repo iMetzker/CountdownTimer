@@ -2,6 +2,8 @@ const counter = document.querySelector(".timer-count");
 const play = document.querySelector(".play");
 const refresh = document.querySelector(".refresh");
 const pause = document.querySelector(".pause");
+const addMinute = document.querySelector('.addMinute');
+const reduceMinute = document.querySelector('.reduceMinute');
 let seconds = 1500;
 let timer;
 
@@ -43,3 +45,11 @@ refresh.addEventListener("click", function (event) {
   seconds = 0;
   counter.innerHTML = "00:00:00";
 });
+
+addMinute.addEventListener('click', function (event) {
+  counter.innerHTML = getTime(seconds += 300);
+})
+
+reduceMinute.addEventListener('click', function (event) {
+  counter.innerHTML = getTime (seconds -= 300);
+})
