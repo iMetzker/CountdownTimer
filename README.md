@@ -33,4 +33,6 @@ O projeto consiste na criação de um cronômetro de contagem regressiva para re
 
 <p>
 Desenvolvido por: <a href="https://github.com/iMetzker">Ivny Metzker</a> <br>
+Inspiração Layout: <a href="https://dribbble.com/shots/12024270-Countdown-Timer-DailyUI014">Darya Bohushynska</a><br>
+Inspiração Projeto: <a href="https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro">Técnica pomodoro</a><br>
 

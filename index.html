@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/timer.css" />
+    <link rel="stylesheet" href="./assets/css/tasks.css" />
     <link rel="icon" href="./assets/img/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,12 +14,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Time To Focus</title>
   </head>
   <body>
     <section>
-      <h1>Quarta-feira</h1>
-      <p>02/02/2023</p>
+      <h1></h1>
+      <p></p>
       <div class="timer">
         <div class="effect-timer"></div>
         <div class="timer-content">
@@ -47,7 +49,59 @@
           <button onclick="playSound (soundCoffee)"><img src="./assets/img/coffeeIcon.png" alt="" /></button>
       </div>
 
-      <div class="tasks-content"></div>
+      <div class="tasks-content">
+
+        <form id="tasks-form">
+          <h2></h2>
+          <div class="tasks-actions">
+            <input type="text" id="tasks-input" placeholder="O que você quer fazer?">
+            <button type="submit">
+              <i class="fa-thin fa-plus"></i>
+            </button>
+          </div>
+        </form>
+
+        <form id="tasks-edit-form" class="hide">
+          <h2>Editar tarefa</h2>
+          <div class="tasks-actions">
+          <input type="text" id="tasks-edit-input">
+        <button type="submit">Salvar</button>
+        <button id="cancel-edit">Cancelar</button>
+      </div>
+        </form>
+
+        <div class="tasks-list">
+
+          <div class="list done">
+            <h3>Teste de tarefa 01</h3>
+            <button class="finish-task">
+              <i class="fa-solid fa-check"></i>
+            </button>
+            <button class="edit-task">
+              <i class="fa-solid fa-pen"></i>
+            </button>
+            <button class="remove-task">
+              <i class="fa-solid fa-remove"></i>
+            </button>
+          </div>
+
+          <div class="list">
+            <h3>Teste de tarefa 02...</h3>
+            <button class="finish-task">
+              <i class="fa-solid fa-check"></i>
+            </button>
+            <button class="edit-task">
+              <i class="fa-solid fa-pen"></i>
+            </button>
+            <button class="remove-task">
+              <i class="fa-solid fa-remove"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
     </section>
 
    <script src="./assets/js/sounds.js"></script>
