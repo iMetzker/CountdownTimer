@@ -7,40 +7,52 @@
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 
-## 📎 Sobre
+## 📎 Sobre / About
 
-O projeto consiste na criação de um cronômetro de contagem regressiva para realização de tarefas que podem ser adicionadas em formato de lista.
+O projeto consiste na criação de um cronômetro de contagem regressiva para realização de tarefas que podem ser adicionadas em formato de lista. 
 
-⚙ Funcionalidades <br>
+The project consists of creating a countdown timer to perform tasks that can be added in list format.
 
-> <u>Cronômetro</u> <br>
+
+⚙ Funcionalidades / 
+Functionalities <br>
+
+> <u>Cronômetro</u> / Stopwatch<br>
  Começar, resetar e pausar contagem; <br>
- Adicionar e remover 05 minutos.
+ Adicionar e remover 05 minutos. <br> <br>
+ Start, reset and pause counting; <br>
+ Add and remove 05 minutes. <br>
 
->  <u>Sons de Fundo</u> <br>
- Três opções de sons.
 
->  <u>Lista de Tarefas</u> <br>
- Adicionar, marcar, remover e editar tarefas.
+>  <u>Sons de Fundo</u> / Background Sounds<br>
+ Três opções de sons. <br> <br>
+Three sound options. <br>
 
-## 🛸 Tecnologias Utilizadas
+
+>  <u>Lista de Tarefas</u> / Task List<br>
+ Adicionar, marcar, remover e editar tarefas. <br><br>
+Add, mark, remove and edit tasks.
+
+## 🛸 Tecnologias Utilizadas / Technologies Used
 
 - HTML 5
 - CSS 3
 - JAVA SCRIPT
 
-## 🖥️ Demonstração
+## 🖥️ Demonstração / Demonstration
 
 <img src="./assets/img/previewTimer.png" alt="preview site">
 
-## 🔗 Link da Página
+## 🔗 Link da Página / Page Link
 
 <a href="https://time-to-focus-by-imetzker.netlify.app/" rel="Site" target="_blank">Clique aqui para ir para o projeto em execução</a>
 
-## 👾 Créditos
+
+## 👾 Créditos / Credits
 
 <p>
 Desenvolvido por: <a href="https://github.com/iMetzker">Ivny Metzker</a> <br>
 Inspiração Layout: <a href="https://dribbble.com/shots/12024270-Countdown-Timer-DailyUI014">Darya Bohushynska</a><br>
 Inspiração Projeto: <a href="https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro">Técnica pomodoro</a><br>
+
 
