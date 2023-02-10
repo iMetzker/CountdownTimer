@@ -3,20 +3,22 @@ const p = document.querySelector("p");
 const data = new Date();
 
 function dayText(day) {
-  const dayText = [
+  const dayTextNow = [
+    "Domingo",
     "Segunda-feira",
     "Terça-feira",
     "Quarta-feira",
+    "Quinta-feira",
     "Sexta-feira",
     "Sábado",
-    "Domingo",
   ];
-  return dayText[day];
+  return dayTextNow[day];
 }
 
 function createTextDay(data) {
-  const dayNow = data.getDate();
+  const dayNow = data.getDay();
   const nameDay = dayText(dayNow);
+  console.log(dayNow);
   return `${nameDay}`;
 }
 
